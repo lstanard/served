@@ -1,0 +1,27 @@
+{
+  "name": "served",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "api": "nodemon server.js",
+    "dev": "webpack --colors --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lstanard/served.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lstanard/served/issues"
+  },
+  "homepage": "https://github.com/lstanard/served#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "nodemon": "^1.10.2",
+    "path": "^0.12.7"
+  }
+}

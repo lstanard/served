@@ -1,5 +1,8 @@
 # Served
 
+## Installation
+Run `npm install` to download all dependencies. 
+
 ## API
 The node.js API is located in the `api` directory. Run `npm run api` to start the Express server.
 

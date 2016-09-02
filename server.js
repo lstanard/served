@@ -6,7 +6,6 @@ var PORT = process.env.PORT || 3000;
 
 // config =====================================================================
 app.use(bodyParser.json());
-app.use(express.static('public'));
 
 // routes =====================================================================
 app.use(require('./api/controllers/'));
